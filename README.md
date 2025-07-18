@@ -5,7 +5,7 @@ vocal-scoolの集客のためのホームページを作成
 ## Dockerビルド
 1. リポジトリの複製
    ```
-   git clone git@github.com:NaoyaNoro/coachtech-attendance.git
+   git clone git@github.com:NaoyaNoro/vocal-school.git
    ```
 3. DockerDesktopアプリを立ち上げる
 4. dockerをビルドする<br>

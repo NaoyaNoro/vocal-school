@@ -1,0 +1,128 @@
+body{
+    background-color: #ffffed;
+}
+
+.top__content {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:
+        linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
+        url('../storage/img/people.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+
+}
+
+
+
+.top__content h2{
+    color: #ba2f27;
+    font-size: 35px;
+}
+
+.top__content a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #f27f13;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: max-content;
+    font-size: 20px;
+}
+
+.char__contents{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF5d3;
+    padding: 50px 30px;
+}
+
+.char__contents img{
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.char__img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.char__ttl {
+    color: #ba2f27;
+    font-size: 24px;
+}
+
+.lesson__ttl h3{
+    text-align: center;
+    color: #ba2f27;
+    font-size: 24px;
+}
+
+.lesson__contents{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffed;
+    padding-bottom: 20px;
+}
+
+.lesson__items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.lesson__item{
+    padding: 20px 40px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.lesson__item--ttl{
+    font-size: 24px;
+}
+
+.lesson__item--price{
+    font-size: 24px;
+}
+
+.lesson__item--tag{
+    text-decoration: none;
+    color: white;
+    background-color: #f27f13;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: max-content;
+}
+
+.voice__contents{
+    height: 300px;
+}
+
+.voice__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 40px 0px;
+    padding: 50px 0px;
+    background-color: #ffffff;
+}
+
+.voice__image img{
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 1px solid #c1c1c1;
+    margin-right: 70px;
+}
+
+.voice__ttl h4{
+    color: #ba2f27;
+    font-size: 24px;
+}
